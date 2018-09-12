@@ -1,15 +1,13 @@
-body {
-}
 .font-special {
   font-family: 'Ruslan Display', cursive;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
   font-family: 'Ruslan Display', cursive;
   font-size: 1.2em;
-  &:hover {
-    color: red;
-  }
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
 }
 .jumbo-title {
   font-size: 15vh;
